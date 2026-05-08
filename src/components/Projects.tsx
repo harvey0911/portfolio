@@ -10,6 +10,12 @@ import laboServices from '../Labo Asnane/Services.png';
 import laboTarifs from '../Labo Asnane/Tarifs .png';
 import laboContact from '../Labo Asnane/Contact.png';
 
+import lebonprofLogin from '../Le Bon Prof/Login.png';
+import lebonprofCourses from '../Le Bon Prof/Courses .png';
+import lebonprofPayment from '../Le Bon Prof/payment tracking.png';
+import lebonprofAttendance from '../Le Bon Prof/Attendance.png';
+import lebonprofSettings from '../Le Bon Prof/Settings.png';
+
 type Project = {
   id: number;
   title: string;
@@ -25,6 +31,13 @@ const projects: Project[] = [
     description: "Labo Asnane is an onging dental prosthetics laboratory startup focused on delivering customized dental solutions to dentists",
     images: [laboHome, laboServices, laboTarifs, laboContact],
     url: "https://labo-asnane.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Le Bon Prof",
+    description: "Le Bon Prof is a desktop management application designed for tutoring centers to track attendance, organize courses, manage students and professors, handle payments, and store academic files.",
+    images: [lebonprofLogin, lebonprofCourses, lebonprofPayment, lebonprofAttendance, lebonprofSettings],
+    url: "https://github.com/harvey0911/lebonprof_electron_vite"
   },
   {
     id: 1,
