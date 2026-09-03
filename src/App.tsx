@@ -1,13 +1,9 @@
-import Projects from './components/Projects'
+import PortfolioLanding from './components/PortfolioLanding'
 import './App.css'
 
 function App() {
   return (
-    <>
-      <main>
-        <Projects />
-      </main>
-    </>
+    <PortfolioLanding />
   )
 }
 

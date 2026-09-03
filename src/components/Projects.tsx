@@ -1,9 +1,5 @@
 import { useState } from 'react';
 import './Projects.css';
-import ophthaHome from '../Ophthalmologist/Home.png';
-import ophthaServices from '../Ophthalmologist/Services.png';
-import ophthaContact from '../Ophthalmologist/Contact .png';
-import ophthaLogin from '../Ophthalmologist/Login.png';
 
 import laboHome from '../Labo Asnane/Home.png';
 import laboServices from '../Labo Asnane/Services.png';
@@ -26,25 +22,18 @@ type Project = {
 
 const projects: Project[] = [
   {
-    id: 2,
+    id: 1,
     title: "Labo Asnane",
-    description: "Labo Asnane is an onging dental prosthetics laboratory startup focused on delivering customized dental solutions to dentists",
+    description: "Labo Asnane is an ongoing dental prosthetics laboratory startup focused on delivering customized dental solutions to dentists",
     images: [laboHome, laboServices, laboTarifs, laboContact],
     url: "https://labo-asnane.vercel.app/"
   },
   {
-    id: 3,
+    id: 2,
     title: "Le Bon Prof",
     description: "Le Bon Prof is a desktop management application designed for tutoring centers to track attendance, organize courses, manage students and professors, handle payments, and store academic files.",
     images: [lebonprofLogin, lebonprofCourses, lebonprofPayment, lebonprofAttendance, lebonprofSettings],
     url: "https://github.com/harvey0911/lebonprof_electron_vite"
-  },
-  {
-    id: 1,
-    title: "Cabinet d'ophtalmologie - Dr Moumene",
-    description: "A healthcare portal realized for an ophthalmologist. Features detailed service pages for specialized eye care and a clean, reassuring UI tailored for patient accessibility.",
-    images: [ophthaHome, ophthaServices, ophthaContact, ophthaLogin],
-    url: "https://ophtalmologiste.vercel.app/#espace"
   }
 ];
 
