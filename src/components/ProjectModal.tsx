@@ -10,6 +10,9 @@ import lebonprofPayment from '../Le Bon Prof/payment tracking.png';
 import lebonprofAttendance from '../Le Bon Prof/Attendance.png';
 import lebonprofSettings from '../Le Bon Prof/Settings.png';
 
+import eduguideScholarship from '../EduGuide/Scholarship.jfif';
+import eduguideMajors from '../EduGuide/majors.jfif';
+
 export type CategoryType =
   | 'AI / Data Engineer'
   | 'Software Developer'
@@ -68,6 +71,17 @@ export const allProjects: Project[] = [
     ],
     url: 'https://github.com/harvey0911/lebonprof_electron_vite',
     tags: ['Electron', 'React', 'TypeScript', 'SQLite', 'Node.js'],
+  },
+  {
+    id: 3,
+    roleIds: ['ai-data', 'software-dev'],
+    categories: ['AI / Data Engineer', 'Software Developer'],
+    title: 'EduGuide',
+    description:
+      'EduGuide is a chatbot designed for student orientation at Al Akhawayn university, focusing on the liberal arts system and general university information. It provides details on programs, majors, and campus life, using data from the university\'s website. Perfect for new and prospective students to explore their options and get answers.',
+    images: [eduguideScholarship, eduguideMajors],
+    url: 'https://github.com/harvey0911',
+    tags: ['AI Chatbot', 'NLP / LLM', 'RAG', 'React', 'Python', 'University Orientation'],
   },
 ];
 
